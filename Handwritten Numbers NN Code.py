@@ -67,16 +67,16 @@ def photo_editor(image):
     image /=255.0
     return image
 
-image_input_path = ["./input/Predictions/Number 1.jpg",
-                    "./input/Predictions/Number 2.jpg",
-                    "./input/Predictions/Number 3.jpg",
-                    "./input/Predictions/Number 4.jpg",
-                    "./input/Predictions/Number 5.jpg",
-                    "./input/Predictions/Number 6.jpg",
-                    "./input/Predictions/Number 7.jpg",
-                    "./input/Predictions/Number 8.jpg",
-                    "./input/Predictions/Number 9.jpg",
-                    "./input/Predictions/Number 16.jpg",
+image_input_path = ["./input-copy/Predictions/Number 1.jpg",
+                    "./input-copy/Predictions/Number 2.jpg",
+                    "./input-copy/Predictions/Number 3.jpg",
+                    "./input-copy/Predictions/Number 4.jpg",
+                    "./input-copy/Predictions/Number 5.jpg",
+                    "./input-copy/Predictions/Number 6.jpg",
+                    "./input-copy/Predictions/Number 7.jpg",
+                    "./input-copy/Predictions/Number 8.jpg",
+                    "./input-copy/Predictions/Number 9.jpg",
+                    "./input-copy/Predictions/Number 16.jpg",
                     ]
 
 fig,axs = plt.subplots(5,5,figsize=[24,21])
