@@ -77,9 +77,6 @@ image_input_path = ["./input/Predictions/Number 1.jpg",
                     "./input/Predictions/Number 8.jpg",
                     "./input/Predictions/Number 9.jpg",
                     "./input/Predictions/Number 16.jpg",
-                    "./input/Predictions/Dad 1.jpg",
-                    "./input/Predictions/Dad 2.jpg",
-                    "./input/Predictions/Dad 3.jpg"
                     ]
 
 fig,axs = plt.subplots(5,5,figsize=[24,21])
